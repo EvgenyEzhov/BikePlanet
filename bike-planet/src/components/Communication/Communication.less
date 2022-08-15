@@ -1,0 +1,73 @@
+@var1: white;
+
+.mainBlock{
+    display: flex;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 290px;
+    margin: 0;
+}
+
+.mainInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border: 1px solid #FFFFFF;
+    margin: 10px;
+}
+
+.subscribeBlock{
+    margin: 0 1em 0 7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 6vh;
+}
+
+.emailButton{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+	text-indent: 2em;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+}
+
+.subscribeButton{
+    text-align: center;
+	width: 40%;
+    height: 100%;
+	background: linear-gradient(180deg, #22B7E6 0%, #3FD1FF 100%);
+	border-radius: 20px;
+    border: none;
+	color: @var1;
+	font-size: 15px;
+	cursor: pointer;
+	letter-spacing: .1em;
+    font-weight: 600;
+}
+
+.subscribeInfo{
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    color: @var1;
+    margin: 7em;
+    width: 35%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.subscribeButton:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 2px 2px 2px #427388; 
+} 

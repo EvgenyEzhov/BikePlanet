@@ -1,0 +1,63 @@
+@var1: #282c34;
+@var2: #61dafb;
+@var3: white;
+
+.header {
+	width: 100%;
+	height: 4vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;	
+	letter-spacing: .1em;
+}
+
+.logo{
+	border: solid 2px black;
+	font-size: 25px;
+	font-weight: bold;
+	width: 10vw;
+	text-align:  center;
+}
+
+.logoContact{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	width: 70%;	
+}
+
+.logoContact :not(:last-child){
+	padding-right: 2em;
+}
+
+.logoPhone{
+	justify-content: flex-end;
+	width: auto;
+	font-size: 20px;
+	white-space: nowrap;
+}
+
+.buttonInHeader{
+	text-align: center;
+	width: 150px;
+	background: linear-gradient(180deg, #22B7E6 0%, #3FD1FF 100%);
+	border-radius: 20px;
+	color: @var3;
+	font-size: 15px;
+	cursor: pointer;
+	letter-spacing: .1em;
+	border: none;
+	height: 100%;
+	font-weight: 600;
+}
+
+.buttonInHeader:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 2px 2px 2px #427388;
+}
+

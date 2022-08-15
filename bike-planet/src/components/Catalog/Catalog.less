@@ -1,0 +1,129 @@
+@var1: white;
+
+
+.productPrewiev{
+    border-top: solid 2px #3FD1FF;
+    text-transform: uppercase;
+    margin: 6em 0;
+    padding-top: 150px 0;
+    width: 100%;
+}
+
+.productCategory{
+    margin: 80px 0;
+}
+
+.productItems{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.productRow1{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-right: 2em;
+}
+
+.bikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bikes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;    
+}
+
+.productRow2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    margin-right: 2em;
+}
+
+.accessories{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 60%;
+    background-image: url(./images/acces.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-position: center;
+}
+
+.equipment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 100%;
+    height: 40%;
+    background-image: url(./images/eqip.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.productRow3{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.backpacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-image: url(./images/backpacks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-position: center;    
+}
+
+.sportswear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background-image: url(./images/sportwear.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 65%;   
+}
+
+.buttonProduct{
+	text-align: center;
+	width: 40%;
+    height: 100%;
+	background: linear-gradient(180deg, #22B7E6 0%, #3FD1FF 100%);
+	border-radius: 20px;
+    border: 1px solid #ffffff;
+	color: @var1;
+	font-size: 15px;
+	cursor: pointer;
+	letter-spacing: .1em;
+	height: 3vh;
+    font-weight: 600;
+}
+
+.buttonProduct:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 2px 2px 2px #427388; 
+} 
